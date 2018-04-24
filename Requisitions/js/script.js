@@ -71,7 +71,7 @@ function carga() {
 		var btn_status = "";
 		var any_find;
 		var html_modal = "";
-		let fila = 0;
+		
           
         $.each(datos, function(id,values){
 /*
@@ -100,6 +100,7 @@ function carga() {
 			let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 
 				if(privUSer == 1){
+					let fila = 0;
 					fila++;
 					html += '<thead class="' + id + '">';
 					html += '<tr>';
@@ -147,6 +148,7 @@ function carga() {
 				} else {
 				
 					if(Token === values.Users){
+						let fila = 0;
 						fila++;
 						html += '<thead class="' + id + '">';
 						html += '<tr>';
