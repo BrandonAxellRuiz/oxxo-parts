@@ -1,0 +1,9 @@
+img.lazy {
+    width: 160px;
+    height: 200px;
+    display: block;
+    /* optional way, set loading as background */
+    background-image: url('../bootstrap-3.3.5-dist/spinner.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
