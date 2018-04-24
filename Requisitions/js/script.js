@@ -95,12 +95,12 @@ function carga() {
 			});*/
 		
 		
-			fila++;
+			
 			mydate = new Date(values.Date_S);
 			let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 
 				if(privUSer == 1){
-					
+					fila++;
 					html += '<thead class="' + id + '">';
 					html += '<tr>';
 					html += '<th>Estatus</th>';
@@ -147,7 +147,7 @@ function carga() {
 				} else {
 				
 					if(Token === values.Users){
-						
+						fila++;
 						html += '<thead class="' + id + '">';
 						html += '<tr>';
 						html += '<th>Estatus</th>';
